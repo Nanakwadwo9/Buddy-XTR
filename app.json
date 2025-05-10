@@ -29,7 +29,7 @@
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number",
       "required": true,
-      "value": ""
+      "value": "233202429182"
     },
     "AUTO_READ": {
       "description": "Enable bot to auto-read messages (true/false)",
@@ -38,18 +38,18 @@
     },
     "AUTO_TYPING": {
       "description": "Enable bot to show typing status (true/false)",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "AUTO_RECORDING": {
       "description": "Enable bot to show recording status (true/false)",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "ALWAYS_ONLINE": {
       "description": "Keep bot always online (true/false)",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "AUTO_REACT": {
       "description": "Enable bot to auto-react to messages (true/false)",
@@ -58,7 +58,7 @@
     },
     "ANTI_DELETE": {
       "description": "Enable anti-delete feature (true/false)",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     "AUTO_STATUS_SEEN": {
@@ -69,12 +69,12 @@
     "AUTO_STATUS_REACT": {
       "description": "Enable bot to reply after viewing a status (true/false)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_BLOCK": {
       "description": "Enable bot to auto-block specific numbers (true/false)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "REJECT_CALL": {
       "description": "Enable bot to reject incoming calls (true/false)",
